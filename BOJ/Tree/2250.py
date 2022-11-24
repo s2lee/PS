@@ -23,7 +23,7 @@ ind = [0] * (n + 1)
 for _ in range(n):
     a, b, c = map(int, sys.stdin.readline().split())
     if b != -1:
-        tr[a][0] = bbm
+        tr[a][0] = b
         ind[b] += 1
     if c != -1:
         tr[a][1] = c
